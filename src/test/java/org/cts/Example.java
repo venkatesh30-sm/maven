@@ -14,6 +14,8 @@ public class Example extends Base {
 		load("https://www.facebook.com");
 		WebElement user = driver.findElement(By.id("email"));
 		fill(user,getData(0,0));
+		System.out.println("stu id is 1234");
+		System.out.println("stu location is chennai");
 }
 		
 	
